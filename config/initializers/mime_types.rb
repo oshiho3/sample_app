@@ -1,4 +1,5 @@
-# Be sure to restart your server when you modify this file.
+# Ruby on Rails Tutorial: sample application
 
-# Add new mime types for use in respond_to blocks:
-# Mime::Type.register "text/richtext", :rtf
+This is the sample application for
+the [*Ruby on Rails Tutorial*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl.com/).
