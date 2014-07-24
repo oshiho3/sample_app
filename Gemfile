@@ -15,6 +15,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 # Use Postgress as database
