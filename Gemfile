@@ -6,6 +6,12 @@ ruby '2.1.2'
 gem 'rails', '4.1.4'
 gem 'bootstrap-sass'
 gem 'sprockets'
+gem 'bcrypt-ruby'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
+gem 'rails_12factor',   group: :production
 
 group :development, :test do
   gem 'minitest'
@@ -42,9 +48,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc, require: false
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-gem 'rails_12factor',   group: :production
-
-gem 'bcrypt-ruby'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
