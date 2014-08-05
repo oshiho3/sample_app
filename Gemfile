@@ -16,6 +16,7 @@ gem 'rails_12factor',   group: :production
 group :development, :test do
   gem 'minitest'
   gem 'rspec-rails'
+  gem 'rspec-its'
 end
 
 group :test do
